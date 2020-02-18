@@ -1,9 +1,9 @@
 def bubble_sort(arr)
   i = 0
-  while i<(arr.length)
+  while i < (arr.length)
     j = 1
-    while j<(arr.length-i)
-      if arr[j-1]>arr[j]
+    while j < (arr.length-i)
+      if arr[j-1] > arr[j]
         temp=arr[j-1]
         arr[j-1] = arr[j]
         arr[j] = temp
@@ -17,10 +17,10 @@ end
 
 def bubble_sort_by(arr)
   i = 0
-  while i<(arr.length)
+  while i < (arr.length)
     j = 1
-    while j<(arr.length-i)
-      if 0<(yield arr[j-1], arr[j])
+    while j < (arr.length-i)
+      if 0 < (yield arr[j-1], arr[j])
         temp = arr[j-1]
         arr[j-1] = arr[j]
         arr[j] = temp
