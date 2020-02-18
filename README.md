@@ -18,7 +18,7 @@ Two method for organizing an array using bubble sort algorithm. The first method
 
 ## Live Demo
 
-[Live Demo](https://raw.githack.com/andresporras3423/design-teardown/feature/index.html)
+[Live Demo](https://repl.it/@yoxter3423/bubble-sort-ruby) (not working until merge with master)
 
 ## Authors
 
