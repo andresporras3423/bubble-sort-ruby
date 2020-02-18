@@ -2,6 +2,8 @@
 
 First Ruby Microverse Project By Ángel Cussi &amp; Oscar Russi
 
+![screenshot](screenshot.png)
+
 # HTML Form
 
 First MIcroverse project for Ruby Curriculum
