@@ -20,7 +20,7 @@ Two methods for organizing an array using bubble sort algorithm. The first metho
 
 ## Live Demo
 
-[Live Demo](https://repl.it/@yoxter3423/bubble-sort-ruby) (not working until merge with master)
+[Live Demo](https://repl.it/@yoxter3423/bubble-sort-ruby-1)
 
 ## Authors
 
