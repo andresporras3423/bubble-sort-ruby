@@ -12,7 +12,7 @@ def bubble_sort(arr)
     end
     i += 1
   end
-  puts "[" + arr.join(",") + "]"
+  puts '[' + arr.join(',') + ']'
 end
 
 def bubble_sort_by(arr)
@@ -20,7 +20,7 @@ def bubble_sort_by(arr)
   while i < arr.length
     j = 1
     while j < arr.length - i
-      if (yield arr[j - 1], arr[j])
+      if yield arr[j - 1], arr[j]
         temp = arr[j - 1]
         arr[j - 1] = arr[j]
         arr[j] = temp
@@ -29,10 +29,10 @@ def bubble_sort_by(arr)
     end
     i += 1
   end
-  puts "[" + '"' + arr.join('","') + '"' + "]"
+  puts '[' + '"' + arr.join('","') + '"' + ']'
 end
 
-bubble_sort([4,3,78,2,0,2])
+bubble_sort([4, 3, 78 , 2, 0, 2])
 bubble_sort_by(["hi","hello","hey"]) do |left,right|
   left.length - right.length
 end
