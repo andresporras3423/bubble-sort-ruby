@@ -2,15 +2,15 @@
 
 First Ruby Microverse Project By Ángel Cussi &amp; Oscar Russi
 
-![screenshot](screenshot.png)
+![screenshot](./screenshot.png)
 
-# HTML Form
+# Bubble sort on Ruby 
 
-First MIcroverse project for Ruby Curriculum
+First Microverse project for Ruby Curriculum
 
 # What it does
 
-Two method for organizing an array using bubble sort algorithm. The first method doesnt use blocks, the second method use blocks.
+Two methods for organizing an array using bubble sort algorithm. The first method doesnt use blocks, the second method use blocks.
 
 ## Built With
 
@@ -25,9 +25,9 @@ Two method for organizing an array using bubble sort algorithm. The first method
 ## Authors
 
 **Ángel Cussi**
-- Github: [@AbdelP](https://github.com/abdelp/)
-- Twitter: [@AbdelPerez11](https://twitter.com/abdelperez11)
-- Linkedin: [Abdel Pérez](https://www.linkedin.com/in/abdel-p%C3%A9rez-t%C3%A9llez-72b2aa153/)
+- Github: [@profile](https://github.com/abcussi)
+- Twitter: [@profile](https://twitter.com/thecussi)
+- Linkedin: [profile](https://www.linkedin.com/in/angel-cussi-1b2310174/)
 
 **Oscar Russi**
 - Github: [@andresporras3423](https://github.com/andresporras3423/)
