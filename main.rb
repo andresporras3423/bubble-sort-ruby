@@ -12,7 +12,7 @@ def bubble_sort(ar)
     end
     i+=1
   end
-  return ar
+  return "["+ar.join(",")+"]"
 end
 
 def bubble_sort_by(ar)
@@ -29,10 +29,11 @@ def bubble_sort_by(ar)
     end
     i+=1
   end
-  puts ar
+  puts "["+ar.join(",")+"]"
 end
 
-# puts bubble_sort([4,3,78,2,0,2])
-# bubble_sort_by(["hi","hello","hey"]) do |left,right|
-#   left.length - right.length
-# end
+puts bubble_sort([4,3,78,2,0,2])
+bubble_sort_by(["hi","hello","hey"]) do |left,right|
+  left.length - right.length
+end
+
