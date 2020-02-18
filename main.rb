@@ -29,7 +29,7 @@ def bubble_sort_by(ar)
     end
     i+=1
   end
-  puts "["+ar.join(",")+"]"
+  puts "["+'"'+ar.join('","')+'"'+"]"
 end
 
 puts bubble_sort([4,3,78,2,0,2])
